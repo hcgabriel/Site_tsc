@@ -1,0 +1,251 @@
+
+html body{
+	background: white;
+	font-family: "Trebuchet MS";
+	padding: auto;
+}
+
+/*==Header==*/
+body header{
+	display: flex;
+	background:#292D33;
+	padding: auto;
+	justify-content: space-between;
+	
+}
+
+body header h1 img{
+	height: 70px;
+	margin: 2vw 3vw 2vw 9vw;
+}
+
+body header nav ul li{
+	color: white;
+}
+body header nav ul li a{
+	text-decoration: none;
+	color:white;
+	margin: 0vw 1vw 0vw 1vw;
+ 	font-size: 1.3vw;
+}
+
+body header nav ul{
+	text-align: right;
+	display: flex;
+	padding: 4.7vw 6vw 1.8vw 0vw;
+}
+
+body section#empresa{
+	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("../img/toalhas.png");
+	height: 800px;
+	width: 1440px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+body section#empresa h2{
+	text-align: center;
+	color: white;
+	padding: 30vw 0 2vw 0;
+	font-size: 4vw;
+	font-style: bold;
+}
+
+body section#empresa p{
+	text-align: center;
+	color: white;
+	font-size: 1.5vw;
+	padding: 0 22vw 0 22vw;
+}
+
+
+body section#produto{
+	background: #00A2FF;
+}
+
+body section#produto h2{
+	color: white;
+	font-size: 3.2vw;
+	text-align: center;
+	padding: 2vw 0 2vw 0;
+	font-weight: bold;
+	font-family: Copperplate;
+}
+
+
+body section#produtos{
+	display: flex;
+	padding: auto;
+	padding-bottom: 7.2vw;
+	background: #292D33;
+}
+
+body section#produtos nav{
+	padding: 5vw 8vw 0vw 8vw;
+	text-align: center;
+}
+
+body section#produtos nav h3{
+	font-size: 2vw;
+	color: white;
+	padding: 2vw 0 2vw 0;
+}
+
+body section#produtos img{
+	padding: 0vw 0 1vw 0; 
+	height: 15vw;
+	border-radius: 15vw;
+}
+
+body section#produtos p{
+	font-style: bold;
+	padding: 1vw 0 2vw 0;
+	margin-bottom: 1.5vw;
+	color: white;
+}
+
+body section#produtos h4 a{
+	text-decoration: none;
+	padding: 2vw 0 5vw 0;
+	font-style: bold;
+	margin: 3vw 5vw 1vw 5vw;
+	padding: 0.9vw 0.9vw 0.9vw 0.9vw;
+	background: #0EC0DE;
+	color: white;
+	font-weight: bold;
+	border-radius: 7%;
+}
+
+body section#contato{
+	background: white;
+	padding-left: 2vw;
+	padding-bottom: 7vw;
+	padding-top: 3vw;
+	display: flex;
+}
+
+body section#esquerda{
+	margin: 8vw 0 0 -17.5vw;
+	background: white;
+	height: 28vw;
+	width: 25vw;
+	text-align: center;
+}	
+
+body section#esquerda div{
+	width: 25vw;
+	height: 9.32vw;
+	border-style: solid;
+	border-bottom-width: 0.5px;
+	border-bottom-color: #E2E2E2;
+}
+
+body section div ul li.w{
+	width: 9vw;
+	height: 9.31vw;
+	background: #00C465;
+}
+
+body section div ul li.e{
+	width: 9vw;
+	height: 9.32vw;
+	background: #45ADE0;
+}
+
+body section div ul li.f{
+	width: 9vw;
+	height: 9.32vw;
+	background: #63ADD0;
+}
+
+body section#esquerda div ul li img{
+	margin-top: 3vw;
+	width: 4vw;
+	height: 4vw;
+}
+
+body section#esquerda div ul li h2{
+	color: #292D33;
+	font-size: 2vw;
+	margin: -9vw 0 0 6vw;
+}
+
+body section#esquerda div ul li p{
+	color: #292D33;
+	margin: 0.5vw 0 0 6vw;
+	font-size: 1vw;
+}
+
+
+body section#contato h2{
+	color:#292D33;
+	margin: 0vw 3vw 0vw 12vw;
+	padding: 3vw 0vw 0vw 0vw;
+	font-size: 2.4vw;
+}
+
+body section#contato form p{
+	color: #292D33;
+	font-size: 1.3vw;
+	padding-bottom: 1vw;
+	padding-top: 1vw;
+}
+
+body section#contato form{
+	display: grid;
+	padding: 2vw;
+	border:1px solid #C8C8C8;
+	border-radius:4px;
+	margin: 8vw 0 0 25vw;
+	background: #FCFCFC;
+	height: 23.6vw;
+}
+
+body section#contato p input.send{
+border:1px solid #C8C8C8;
+border-radius:4px;
+display:inline-block;
+cursor:pointer;
+font-family:Verdana;
+font-weight:bold;
+font-size:13px;
+padding:6px 10px;
+text-decoration:none;
+} 
+
+footer{
+	background: #292D33;
+}
+
+footer div nav{
+	margin-left: 4vw;
+}
+
+footer div nav ul.as li{
+	color: white;
+}
+
+footer div nav ul.as li a{
+	text-decoration: none;
+	color:white;
+	margin: 0vw 2vw 0vw 2vw;
+	font-size: 1vw; 
+}
+
+footer div nav ul.as{
+	text-align: right;
+	display: flex;
+	padding: 2.5vw 0vw 0vw 0vw;
+}
+
+footer ul.rod{
+	padding: 0vw 2vw 1vw 0vw;
+	text-align: right;
+	margin-right: 5vw;
+
+}
+
+footer ul.rod li a{
+	text-decoration: none;
+	color: white;
+}
